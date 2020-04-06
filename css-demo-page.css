@@ -451,6 +451,7 @@ body {
 	height: 100vh;
 	color:#000;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 body strong {
@@ -469,11 +470,20 @@ body strong {
     padding-right: 45px;
 }
 
-@media (max-width:980px) {
-    .demo-page-container {
-        width: calc(100% - 30px);
-    }
+@media (max-width:1100px) {
+	.demo-page-container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 }
+
+@media (max-width:767px) {
+	.demo-page-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
 
 .demo-page-container h3 {
   font-size:32px;
