@@ -483,7 +483,7 @@ body strong {
 
 .demo-page-container p {
 	font-size:17px;
-	margin: 35px 0 10px 0;
+	margin: 25px 0 10px 0;
 }
 
 p.header-par {
@@ -493,7 +493,7 @@ p.header-par {
 
 .demo-page-container h5 {
   font-size:21px;
-  margin-bottom:35px;
+  margin-bottom:30px;
   margin-top:35px;
   padding-top:25px;
   text-transform:uppercase;
