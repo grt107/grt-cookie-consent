@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>GRT Cookie Consent for GDPR Law - jQuery Plugin</title>
+	<meta name="description" content="GRT Cookie Consent for GDPR Law - jQuery Plugin">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Demo CSS file not needed for the plugin -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css-demo-page.css">
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="grt-cookies-consent.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+	<div class="demo-page-container">
+		<!-- Github Button -->
+		<div class="github-position">
+			<a class="github-button" href="https://github.com/grt107/grt-youtube-popup/archive/master.zip"
+				data-icon="octicon-cloud-download" data-size="large"
+				aria-label="Download grt107/grt-youtube-popup on GitHub">Download</a>
+			<a class="github-button" href="https://github.com/grt107" data-size="large"
+				aria-label="Follow @grt107 on GitHub">Follow @grt107</a>
+		</div>
+	
+		<h3>GRT Cookie Consent - jQuery Plugin</h3>
+		<p>Simple and lightweight jQuery plugin used for Cookie Consent on GDPR Law.</p>
+	
+		<h5>How to use the plugin in your website</h5>
+	
+		<p>1- Include the plugin stylesheet file <strong>grt-cookies-consent.css</strong> inside the
+			<strong>&lt;head&gt;</strong> tag</p>
+		<code>&lt;link rel="stylesheet" href="grt-cookies-consent.css"&gt;</code>
+	
+		<p>2- Include the plugin javascript file <strong>grt-cookie-consent.js</strong> inside the
+			<strong>&lt;body&gt;</strong> tag and after <strong>jquery.min.js</strong></p>
+		<code>&lt;script src="grt-cookie-consent.js"&gt;&lt;/script&gt;</code>
+
+		<p>3- Add the following code inside your document <strong>&lt;body&gt;</strong> and change the text content and button name.</p>
+<code>&lt;div class=&quot;grt-cookie&quot;&gt; 
+ &lt;div class=&quot;grt-cookies-msg&quot;&gt;
+  &lt;p&gt; We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our &lt;a href=&quot;&quot;&gt;Privacy Policy&lt;/a&gt;, and our &lt;a href=&quot;&quot;&gt;Terms of Service&lt;/a&gt;. &lt;/p&gt; &lt;/div&gt; 
+ &lt;span class=&quot;grt-cookie-button&quot;&gt;Accept&lt;/span&gt;
+&lt;/div&gt;</code>
+	
+		<p>4- Initialize the plugin with default values at the end of all javascript files using your custom class (after jquery.min.js and	grt-cookie-consent.js)</p>
+		<code>&lt;script&gt; $(".grt-cookie").grtCookie(); &lt;/script&gt;</code>
+	
+		<h5>Advanced Options</h5>
+	
+		<p><strong>Autoplay</strong> (enabled by default) - accepted values: <strong>true</strong> or <strong>false</strong>
+		</p>
+		<code>&lt;script&gt; $(".grt-cookie").grtCookie({ autoPlay:false }); &lt;/script&gt;</code>
+	
+		<p><strong>Theme</strong> (dark theme is set by default) - accepted values: <strong>"dark"</strong> or
+			<strong>"light"</strong></p>
+		<code>&lt;script&gt; $(".grt-cookie").grtCookie({ theme:"light" }); &lt;/script&gt;</code>
+	
+	</div>
+
+	<div class="grt-cookie">
+		<div class="grt-cookies-msg">
+			<p>
+				We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our <a href="">Privacy Policy</a>, and our <a href="">Terms of Service</a>.
+			</p>
+		</div>
+		<span class="grt-cookie-button">Accept</span>
+	</div>
+
+	<!-- Jquery  -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<!-- Github button for demo page -->
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+	<!-- GRT Cookie Consent Plugin -->
+	<script src="grt-cookie-consent.js"></script>
+
+	<script>
+		// Start the plugin with defalt settings
+		// $(".grt-cookies").grtCookie();
+
+		// Custom Settings
+		$(".grt-cookie").grtCookie({
+			// Main text and background color
+			textcolor: "#333",
+			background: "#fff",
+			// Button colors
+			buttonbackground: "#c40b14",
+			buttontextcolor: "#fff",
+			// Duration in days
+			duration: 365,
+		});
+	</script>
+</body>
+
+</html>
