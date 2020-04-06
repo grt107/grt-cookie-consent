@@ -473,21 +473,6 @@ body strong {
     padding-right: 45px;
 }
 
-@media (max-width:1100px) {
-	.demo-page-container {
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-}
-
-@media (max-width:767px) {
-	.demo-page-container {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-}
-
-
 .demo-page-container h3 {
   font-size:32px;
   margin-top:0;
@@ -501,6 +486,7 @@ body strong {
 
 p.header-par {
 	margin: 25px 0 10px 0;
+	line-height:1.25;
 }
 
 .demo-page-container h5 {
@@ -527,6 +513,7 @@ code {
 
 p {
   font-size:17px;
+  line-height:1.25;
 }
 
 .github-position {
@@ -534,4 +521,26 @@ p {
   top:12px;
   right:12px;
   z-index:999;
+}
+
+@media (max-width:1100px) {
+	.demo-page-container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media (max-width:767px) {
+	.demo-page-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.demo-page-container h3 {
+		font-size: 24px;
+	}
+
+	.demo-page-container h5 {
+		font-size: 19px;
+	}
 }
