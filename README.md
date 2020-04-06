@@ -1,5 +1,5 @@
 # GRT Cookie Consent - jQuery Plugin
-Simple and lightweight jQuery plugin used for Cookie Consent on GDPR Law
+Simple and lightweight jQuery plugin used for Cookie Consent on GDPR Law.
 
 You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt107.github.io/grt-cookie-consent/)
 
