@@ -447,8 +447,7 @@ template {
 }
 
 body {
-	background: #694b5e;
-	background: linear-gradient(to left, #694b5e, #BE5869);
+	background: #333333;
 	height: 100vh;
 	color:#FFF;
   font-family: 'Lato', sans-serif;
@@ -503,12 +502,12 @@ body strong {
 
 
 code {
-  background-color:#333;
-  color:#FFF;
+  background-color:#FFF;
+  color:#333;
   padding:20px;
   white-space: pre;
   display: block;
-  border: 1px solid #eee;
+  border: 1px solid #333;
   overflow: hidden;
 }
 
