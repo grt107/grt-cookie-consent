@@ -36,13 +36,19 @@ You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt10
   ```
 
 # Advanced Options
-- ```Autoplay``` (enabled by default) - accepted values: ```true``` or ```false```
+You can modify plugin colors and cookie duration by using the following code:
 
-```html
-<script> $(".youtube-link").grtyoutube({ autoPlay:false }); </script>
-```
-
-- ```Theme``` (dark theme is set by default) - accepted values: ```"dark"``` or ```"light"```
-
-```html
-<script> $(".youtube-link").grtyoutube({ theme: "dark" }); </script>
+  ```html
+	<script>
+	$(".grt-cookie").grtCookie({
+		// Main text and background color
+		textcolor: "#333",
+		background: "#fff",
+		// Button colors
+		buttonbackground: "#c40b14",
+		buttontextcolor: "#fff",
+		// Duration in days
+		duration: 365,
+	});
+ 	</script>
+  ```

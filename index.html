@@ -54,14 +54,10 @@
 	
 		<h5>Advanced Options</h5>
 	
-		<p><strong>Autoplay</strong> (enabled by default) - accepted values: <strong>true</strong> or <strong>false</strong>
-		</p>
-		<code>&lt;script&gt; $(".grt-cookie").grtCookie({ autoPlay:false }); &lt;/script&gt;</code>
-	
-		<p><strong>Theme</strong> (dark theme is set by default) - accepted values: <strong>"dark"</strong> or
-			<strong>"light"</strong></p>
-		<code>&lt;script&gt; $(".grt-cookie").grtCookie({ theme:"light" }); &lt;/script&gt;</code>
-	
+		<p>You can modify plugin colors and cookie duration by using the following code:</p>
+
+		<code>$(&quot;.grt-cookie&quot;).grtCookie({ // Main text and background color textcolor: &quot;#333&quot;, background: &quot;#fff&quot;, // Button colors buttonbackground: &quot;#c40b14&quot;, buttontextcolor: &quot;#fff&quot;, // Duration in days duration: 365, });</code>
+
 	</div>
 
 	<div class="grt-cookie">
@@ -84,19 +80,19 @@
 
 	<script>
 		// Start the plugin with defalt settings
-		$(".grt-cookies").grtCookie();
+		// $(".grt-cookies").grtCookie();
 
 		// Custom Settings
-		// $(".grt-cookie").grtCookie({
-		// 	// Main text and background color
-		// 	textcolor: "#333",
-		// 	background: "#fff",
-		// 	// Button colors
-		// 	buttonbackground: "#c40b14",
-		// 	buttontextcolor: "#fff",
-		// 	// Duration in days
-		// 	duration: 365,
-		// });
+		$(".grt-cookie").grtCookie({
+			// Main text and background color
+			textcolor: "#333",
+			background: "#fff",
+			// Button colors
+			buttonbackground: "#c40b14",
+			buttontextcolor: "#fff",
+			// Duration in days
+			duration: 365,
+		});
 	</script>
 </body>
 
