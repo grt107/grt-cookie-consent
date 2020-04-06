@@ -24,7 +24,8 @@ You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt10
   ```html
 	<div class="grt-cookie"> 
 	 <div class="grt-cookies-msg">
-	 <p> We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our <a href="">Privacy Policy</a>, and our <a href="">Terms of Service</a>. </p> </div> 
+	  <p> We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our <a href="">Privacy Policy</a>, and our <a href="">Terms of Service</a>.</p>
+	 </div> 
 	 <span class="grt-cookie-button">Accept</span>
 	</div>
   ```
@@ -36,7 +37,7 @@ You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt10
   ```
 
 # Advanced Options
-You can modify plugin colors and cookie duration by using the following code:
+You can customize plugin colors and cookie duration by using the following code:
 
   ```html
 	<script>
