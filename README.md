@@ -30,14 +30,14 @@ You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt10
 	</div>
   ```
 
-4- Initialize the plugin with default values at the end of all javascript files using the code below (after ```jquery.min.js``` and ```grt-cookie-consent.js```)
+4- ```Initialize the plugin with default values``` at the end of all javascript files using the code below (after ```jquery.min.js``` and ```grt-cookie-consent.js```)
 
 ```html
   <script> $(".grt-cookie").grtCookie(); </script>
   ```
 
 # Advanced Options
-You can customize plugin colors and cookie duration by using the following code:
+You can ```customize``` plugin colors and cookie duration by using the following code:
 
   ```html
 	<script>
