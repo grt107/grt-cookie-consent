@@ -4,7 +4,7 @@ Simple and lightweight jQuery plugin used for Cookie Consent on GDPR Law
 You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt107.github.io/grt-cookie-consent/)
 
 # Screenshot:
-![Alt text](/screenshot.jpg?raw=true "Demo Screenshot")
+![Alt text](/screenshot.png?raw=true "Demo Screenshot")
 
 # How to use the plugin in your website:
 1- Include the plugin stylesheet file ```grt-cookie-consent.css``` inside your ```<head>``` tag
