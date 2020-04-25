@@ -1,5 +1,7 @@
 # GRT Cookie Consent - jQuery Plugin
-Simple and lightweight jQuery plugin used for Cookie Consent on GDPR Law. This plugin is highly customizable, you can change background, text and button colors without modifying the CSS, and addapt it better on your website color palette. It also comes pre-optimized for mobile devices.
+Simple and lightweight jQuery plugin used for Cookie Consent on GDPR Law. 
+
+This plugin is highly customizable, you can change background, text and button colors without modifying the CSS, and addapt it better on your website color palette. It also comes pre-optimized for mobile devices.
 
 You can check the demo here: [grt107.github.io/grt-cookie-consent/](http://grt107.github.io/grt-cookie-consent/)
 
